@@ -68,6 +68,7 @@ document.getElementById("SubmitButton").addEventListener("click", ()=>
     CountDown();
     
 })
+ 
 
     function CountDown(){
 
@@ -79,8 +80,8 @@ document.getElementById("SubmitButton").addEventListener("click", ()=>
         while(displayedMinute>=0){
         while(displayedSecond>=0){
 
-                    
 
+                console.log("Cheguei")
 
             }   
         }
