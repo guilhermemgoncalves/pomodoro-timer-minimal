@@ -10,10 +10,21 @@
 <body>
     <main>
         <section class="container">
-            <div class="number">00</div>
-            <div class="number">00</div>
+            <div id="DisplayMinute" class="number">00</div>
+            <div id="DisplaySecond" class="number">00</div>
         </section>
+
+        <form action="" draggable="true">
+
+            <input id="SetSeconds" type="number" max="59" min="0" placeholder="Segundos">
+            <input id="SetMinutes" type="number" max="59" min="0" placeholder="Minutos">
+            <button id="SubmitButton" type="button">Enviar</button>
+            <button id="ResetButton" type="button">Resetar</button>
+            
+        </form>
              
-    </main>    
+    </main>
+    
+    <script src="assets/scripts.js"></script>
 </body>
 </html>

@@ -65,7 +65,7 @@ main{
     width: 500px;    
     height: 500px;
     margin: 10px;
-    border-radius: 0.6em;
+    border-radius: 20px;
     border: 2px solid rgba(146, 146, 146, 0.5);
     box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(146, 146, 146, 0.5);
 
@@ -75,10 +75,30 @@ main{
     background-color: rgba(255,255,255, 0.09);
 
     font-family: 'Roboto', sans-serif;
-    font-size: 200px;
-    
+    padding: 0px;
+    font-size: 240px;   
 
 
     color: azure;
 }
+form{
+  margin: 10px auto;
+  width: 250px;  
+  display: flex;
+  flex-direction: column; 
+  
+}
+
+input{
+  margin-bottom: 10px;
+  height: 45px;
+  
+}
+button{
+  height: 45px;
+}
+
+
+
+
 
